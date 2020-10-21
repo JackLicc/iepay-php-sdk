@@ -1,0 +1,19 @@
+{
+    "name": "mypay/mypay-php-sdk",
+    "type": "library",
+    "description": "MyPay PHP SDK",
+    "keywords": ["mypay", "orders", "payments", "refunds"],
+    "homepage": "https://www.mypaynz.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IEPay"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IEPaySDK\\": "src"
+        }
+    }
+}
+
