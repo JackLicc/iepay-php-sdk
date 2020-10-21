@@ -1,9 +1,9 @@
 {
-    "name": "mypay/mypay-php-sdk",
+    "name": "iepay/iepay-php-sdk",
     "type": "library",
-    "description": "MyPay PHP SDK",
-    "keywords": ["mypay", "orders", "payments", "refunds"],
-    "homepage": "https://www.mypaynz.com",
+    "description": "IEPay PHP SDK",
+    "keywords": ["iepay", "orders", "payments", "refunds"],
+    "homepage": "https://iepay-api.netlify.app",
     "license": "MIT",
     "authors": [
         {
