@@ -11,6 +11,25 @@ composer require iepay/iepay-php-sdk
 ```
 
 ## Usage
+### Create IEPayClient
+```code
+use IEPaySDK\BaseClient;
+
+use IEPaySDK\Observer\SignatureObserver;
+
+class IEPayClient extends BaseClient {
+
+    public function __construct(string $apiKey)
+    {
+        $this->addObserver(new SignatureObserver($apiKey));
+
+        $origin = 'https://a.mypaynz.com';
+
+        parent::__construct($origin);
+    }
+}
+```
+
 ### Create General Order
 ```sdk usage
 use IEPaySDK\IEPayClient;
